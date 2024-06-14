@@ -14,7 +14,7 @@ def run_executable(executable_path):
 
 def create_gui():
     root = tk.Tk()
-    root.title("Elden Launcher")
+    root.title("Elden Ring Launch Optioner")
 
     frame = tk.Frame(root)
     frame.pack(pady=20, padx=20)
@@ -30,6 +30,9 @@ def create_gui():
 
     file_manager_button = tk.Button(frame, text="File Manager", command=lambda: subprocess.run(["C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\save\EldenRing-Save-Manager\SaveManager.exe"], cwd="C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\save\EldenRing-Save-Manager"))
     file_manager_button.grid(row=1, column=1, padx=10, pady=10)
+
+    file_manager_button = tk.Button(frame, text="Randomizer", command=lambda: subprocess.run([r"C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\Game\Mod-Randomizer\randomizer\EldenRingRandomizer.exe"], cwd=r"C:\Program Files (x86)\Steam\steamapps\common\ELDEN RING\Game\Mod-Randomizer\randomizer"))
+    file_manager_button.grid(row=2, column=0, padx=10, pady=10)
 
     root.mainloop()
     
