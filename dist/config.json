@@ -1,0 +1,19 @@
+{
+    "max_additional_categories": 4,
+    "Normal": {
+        "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ELDEN RING\\Game\\eldenring.exe",
+        "cwd": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ELDEN RING\\Game"
+    },
+    "No EAC": {
+        "path": "C:/Program Files (x86)/Steam/steamapps/common/ELDEN RING/Game/EldenRingOfflineLauncher.exe",
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/ELDEN RING/Game"
+    },
+    "Seamless Coop": {
+        "path": "C:/Program Files (x86)/Steam/steamapps/common/ELDEN RING/Game/launch_elden_ring_seamlesscoop.exe",
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/ELDEN RING/Game"
+    },
+    "File Manager": {
+        "path": "C:/Program Files (x86)/Steam/steamapps/common/ELDEN RING/save/EldenRing-Save-Manager/SaveManager.exe",
+        "cwd": "C:/Program Files (x86)/Steam/steamapps/common/ELDEN RING/save/EldenRing-Save-Manager"
+    }
+}
